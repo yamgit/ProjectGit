@@ -20,11 +20,24 @@
           a las confirmaciones (commit) que sean padres directos de esta (un padre en los casos de confirmación normal,
           y múltiples padres en los casos de estar confirmando una fusión (merge) de dos o más ramas).
         </p>
+        <p style="text-align:center;">
+          <img src="picture/commit-and-tree.png" alt="">
+        </p>
     </p>
+    <p>
+      <h2 style="text-align:center;">
+        Cambiar de Rama
+      </h2>
+      <p>
+        Para saltar de una rama a otra, tienes que utilizar el comando git checkout. Hagamos una prueba, saltando a la rama testing recién creada:
 
-      <center> <img src="picture/commit-and-tree.png"> </center>
-      <script type="text/javascript" src="ramagit.js">
+          $ git checkout testing
+          Esto mueve el apuntador HEAD a la rama testing.
+      </p>
+        <p style="text-align:center;">
+          <img src="picture/head-to-testing.png" alt="">
+        </p>
+        <script src="ramagit.js">
 
-      </script>
-  </body>
+        </script>
 </html>

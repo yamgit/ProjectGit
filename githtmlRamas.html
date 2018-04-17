@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Ramas en git por html</title>
+  </head>
+  <body>
+    <h1 style="text-align:center;">
+       Ramas en Git
+    </h1>
+    <p>
+        Para entender realmente cómo ramifica Git, previamente hemos de examinar la forma en que almacena sus datos.<br>
+        <p>
+          Recordando lo citado en Inicio - Sobre el Control de Versiones, Git no los almacena de forma incremental
+          (guardando solo diferencias), sino que los almacena como una serie de instantáneas
+          (copias puntuales de los archivos completos, tal y como se encuentran en ese momento).
+        </p>
+        <p>
+          En cada confirmación de cambios (commit), Git almacena una instantánea de tu trabajo preparado.Dicha instantánea contiene además unos metadatos con el autor y el mensaje explicativo, y uno o varios apuntadores
+          a las confirmaciones (commit) que sean padres directos de esta (un padre en los casos de confirmación normal,
+          y múltiples padres en los casos de estar confirmando una fusión (merge) de dos o más ramas).
+        </p>
+    </p>
+
+      <center> <img src="picture/commit-and-tree.png"> </center>
+      <script type="text/javascript" src="ramagit.js">
+
+      </script>
+  </body>
+</html>
